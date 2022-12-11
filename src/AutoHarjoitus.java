@@ -17,6 +17,11 @@ public class AutoHarjoitus {
 		
 		auto1.tankkaa();
 		
+		
+		Auto auto2 = new Auto("Ford", "mondeo", 5);
+		
+		auto2.naytaTiedot();
+		
 	}
 	
 	
