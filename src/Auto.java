@@ -16,6 +16,6 @@ public class Auto {
 	}
 	public void naytaTiedot()
 	{
-		System.out.println(malli + merkki + bensanMaara);
+		System.out.println(malli+ " " +  merkki + " " + bensanMaara);
 	}
 }
