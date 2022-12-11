@@ -1,5 +1,8 @@
 
 public class Auto {
+	
+	
+	
 	public String merkki;
 	public String malli;
 	public int bensanMaara;
@@ -27,5 +30,18 @@ public class Auto {
 		System.out.println("tankissa bensaa " + bensanMaara);
 		bensanMaara = bensanMaara + tankkausMaara;
 		System.out.println("tankkauksen jälkeen " + bensanMaara);
+	}
+	public Auto()
+	{
+		merkki  = "Jaguar";
+		malli = "x-type";
+		tankkausMaara = 15;
+	}
+	
+	public Auto(String autoMerkki, String autoMalli, int autonBensa)
+	{
+		this.merkki = autoMerkki;
+		this.malli = autoMalli;
+		this.bensanMaara = autonBensa;
 	}
 }
