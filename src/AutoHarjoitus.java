@@ -9,10 +9,14 @@ public class AutoHarjoitus {
 		auto1.merkki = "volvo";
 		auto1.malli = "c30";
 		auto1.bensanMaara = 5;
+		auto1.tankkausMaara = 3;
 		
 		auto1.naytaTiedot();
 		auto1.kiihdyta();
 		auto1.naytaTiedot();
+		
+		auto1.tankkaa();
+		
 	}
 	
 	
